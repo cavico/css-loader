@@ -35,19 +35,19 @@
 }
 
 #loader::before {
-    -webkit-animation: loader 1s linear infinite;
-        -ms-animation: loader 1s linear infinite;
-         -o-animation: loader 1s linear infinite;
-            animation: loader 1s linear infinite;
-    -webkit-transform-origin: left top;
-        -ms-transform-origin: left top;
-         -o-transform-origin: left top;
-            transform-origin: left top;
+    -webkit-animation: loader 1.5s ease-in-out infinite;
+        -ms-animation: loader 1.5s ease-in-out infinite;
+         -o-animation: loader 1.5s ease-in-out infinite;
+            animation: loader 1.5s ease-in-out infinite;
+    -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+         -o-transform-origin: right bottom;
+            transform-origin: right bottom;
     background: #f00;
     content: "";
     height: 50px;
-    left: 50%;
-    top: 50%;
+    left: 0%;
+    top: 0%;
     width: 50px;
 }
 
