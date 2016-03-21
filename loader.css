@@ -14,7 +14,7 @@
 }
 
 #loader {
-    background: rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0, .1);
     width: 100px;
     height: 100px;
     position: fixed;
@@ -43,7 +43,7 @@
         -ms-transform-origin: right bottom;
          -o-transform-origin: right bottom;
             transform-origin: right bottom;
-    background: #f00;
+    background: #007f7f;
     content: "";
     height: 50px;
     left: 0%;
